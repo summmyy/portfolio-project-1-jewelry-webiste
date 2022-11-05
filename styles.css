@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9D00FF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header{
+    background-color: yellowgreen;
+    padding : 10px 0 10px 0;
+    margin: 0px;
+    
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 5rem;
+    border-color: black;
+    
+    
+}
+
+nav li{
+    display: inline-flex;
+    font-family:cursive;
+    font-size: 1.2rem;
+}
+
+nav li a:hover{
+    color: orange;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.info1{
+    background-color: yellowgreen;
+    font-family:cursive;
+    text-align: center;
+    border-radius: 2rem;
+    flex: 25%;
+    max-width: 30%;
+    padding: auto;
+    
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.info2{
+    background-color: yellowgreen;
+    font-family:cursive;
+    text-align: center;
+    border-radius: 2rem;
+    flex: 25%;
+    max-width: 30%;
+    padding: auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.info3{
+    background-color: yellowgreen;
+    font-family:cursive;
+    text-align: center;
+    border-radius: 2rem;
+    flex: 25%;
+    max-width: 30%;
+    padding: auto;
+}
+
+section{
+    display: flex;
+    padding: 2em;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+#copyright{
+    text-align: right;
+}
